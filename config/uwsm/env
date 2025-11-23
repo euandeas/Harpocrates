@@ -1,0 +1,11 @@
+# Changes require a restart to take effect.
+
+# Ensure Harpocrates bins are in the path
+export HARPOCRATES_PATH=$HOME/.local/share/harpocrates
+export PATH=$HARPOCRATES_PATH/bin:$PATH
+
+# Set default terminal and editor
+source ~/.config/uwsm/default
+
+# Activate mise if present on the system
+harpocrates-cmd-present mise && eval "$(mise activate bash)"

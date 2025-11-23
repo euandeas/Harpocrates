@@ -1,0 +1,6 @@
+source ~/.local/share/harpocrates/default/bash/shell
+source ~/.local/share/harpocrates/default/bash/aliases
+source ~/.local/share/harpocrates/default/bash/functions
+source ~/.local/share/harpocrates/default/bash/init
+source ~/.local/share/harpocrates/default/bash/envs
+[[ $- == *i* ]] && bind -f ~/.local/share/harpocrates/default/bash/inputrc
