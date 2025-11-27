@@ -41,7 +41,7 @@ fi
 if [[ -n $CUSTOM_EXEC ]]; then
   EXEC_COMMAND="$CUSTOM_EXEC"
 else
-  EXEC_COMMAND="omarchy-launch-webapp $APP_URL"
+  EXEC_COMMAND="harpocrates-launch-webapp $APP_URL"
 fi
 
 # Create application .desktop file

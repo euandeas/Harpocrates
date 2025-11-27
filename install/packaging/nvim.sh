@@ -1,6 +1,6 @@
 #!/bin/bash
 # Setup script for nvim
-# This can be called from Omarchy setup scripts
+# This can be called from Harpocrates setup scripts
 
 set -euo pipefail
 
@@ -28,7 +28,7 @@ chown -R "${USER}:${USER}" "$CONFIG_DIR"
 chown -R "${USER}:${USER}" "$DATA_DIR"
 
 # Create link for current theme
-ln -snf "${HOME}/.config/omarchy/current/theme/neovim.lua" "${CONFIG_DIR}/lua/plugins/theme.lua"
+ln -snf "${HOME}/.config/harpocrates/current/theme/neovim.lua" "${CONFIG_DIR}/lua/plugins/theme.lua"
 
 # Restore git working trees
 for dir in $DATA_DIR/lazy/*/; do
