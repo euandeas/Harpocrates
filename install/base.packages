@@ -109,12 +109,10 @@ tree-sitter-cli
 tobi-try
 tzupdate
 ufw
-ufw-docker
 unzip
 usage
 uwsm
 waybar
-wayfreeze
 whois
 wireless-regdb
 wiremix
@@ -123,9 +121,5 @@ wl-clipboard
 woff2-font-awesome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
-xdg-terminal-exec
 xmlstarlet
-xournalpp
-yaru-icon-theme
-yay
 zoxide
