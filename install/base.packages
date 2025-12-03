@@ -90,6 +90,7 @@ python-poetry-core
 qt5-wayland
 ripgrep
 ruby
+rust
 satty
 sddm
 signal-desktop
