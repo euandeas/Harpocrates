@@ -76,11 +76,9 @@ nss-mdns
 nvim
 obs-studio
 obsidian
-harpocrates-chromium
-harpocrates-nvim
-harpocrates-walker
+chromium
+nvim
 pamixer
-pinta
 playerctl
 plocate
 plymouth
@@ -89,7 +87,6 @@ postgresql-libs
 power-profiles-daemon
 python-gobject
 python-poetry-core
-python-terminaltexteffects
 qt5-wayland
 ripgrep
 ruby
@@ -98,7 +95,6 @@ satty
 sddm
 signal-desktop
 slurp
-spotify
 starship
 sushi
 swaybg
@@ -106,8 +102,6 @@ swayosd
 system-config-printer
 tldr
 tree-sitter-cli
-tobi-try
-tzupdate
 ufw
 unzip
 usage
