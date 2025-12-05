@@ -11,4 +11,7 @@ cd -
 rm -rf yay
 cd ~
 
+yay -S --noconfirm --needed rustup
+rustup default stable
+
 yay -S --noconfirm --needed "${packages[@]}"
